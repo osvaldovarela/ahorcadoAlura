@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap");
+
+body {
+  margin: 0;
+  height: auto;
+  background: rgb(255, 255, 255, 0.07);
+  font-family: "Inter", sans-serif;
+}
+.logo {
+  padding: 20px 0 0 50px;
+}
+header {
+  background: black;
+  display: flex;
+}
+
+.caja {
+  width: 320px;
+  height: 250px;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  padding: 70px 30px;
+}
+
+.caja input {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.boton {
+  border: none;
+  outline: none;
+  height: 50px;
+  background: Darkblue;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 24px;
+  cursor: pointer;
+}

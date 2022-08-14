@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap");
+
+body {
+  margin: 0;
+  height: auto;
+  background: url(/img/fondo.jpg) no-repeat center;
+  background-size: cover;
+  font-family: "Inter", sans-serif;
+}
+
+.logo {
+  padding: 20px 0 0 50px;
+}
+
+header p {
+  margin-top: 55px;
+  padding-left: 70px;
+  font-size: 30px;
+  color: white;
+}
+
+header {
+  background: black;
+  display: flex;
+}
+
+main {
+  width: 80%;
+  margin-bottom: 17em;
+  padding: 20px;
+  display: flex;
+  background: rgb(255, 255, 255, 0.07);
+}
+
+#imagen {
+  width: 200px;
+  margin-right: 30px;
+}
+
+#jugar {
+  cursor: pointer;
+}
+
+#perdiste {
+  color: red;
+  font-weight: bold;
+}
+#ganaste {
+  color: green;
+  font-weight: bold;
+}
+#palabra_a_adivinar {
+  height: 3em;
+}
+
+#palabra_a_adivinar span {
+  vertical-align: bottom;
+  font-size: 2em;
+  border-bottom: 2px solid red;
+  color: white;
+  width: 30px;
+  text-align: center;
+  margin-right: 6px;
+  display: inline-block;
+}
+
+#letras {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+}
+
+#letras button {
+  cursor: pointer;
+}
+
+#letras button {
+  padding: 6px;
+  width: 28px;
+  text-align: center;
+}
+
+footer {
+  color: #fefefe;
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  box-shadow: 2px -2px 5px green;
+  background: rgba(12, 129, 74, 0.7);
+}
